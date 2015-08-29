@@ -40,15 +40,13 @@ VDI Platform - On Premises - First for B - Full Puppet Environment
 #### Environment
 1. Setup this project as the one in development
   1. `cd  C:\VDI_SRC_B-P\`
-
-
   2.
-
-    ```.\Common\Scripts\SetupCurrentPuppetEnvironment.ps1 `
+    ```
+    .\Common\Scripts\SetupCurrentPuppetEnvironment.ps1 `
     -puppetEnvironmentSourceFolder '"C:\VDI_SRC_B-P\BP01\Puppet\BP01"' `
     -puppetEnvironmentSymbolicFolder '"C:\ProgramData\PuppetLabs\code\environments\BP01"' `
     -puppetEnvironmentName BP01
-    ```
+```
 
 #### 3rd party Modules
 1. Install AD module (includes dependancies)
