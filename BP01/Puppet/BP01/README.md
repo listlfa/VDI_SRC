@@ -40,6 +40,7 @@ VDI Platform - On Premises - First for B - Full Puppet Environment
 #### Environment
 1. Setup this project as the one in development
   1. `cd  C:\VDI_SRC_B-P\`
+
   2.
 
     ```
