@@ -2,7 +2,7 @@ BP01
 
 VDI Platform - On Premises - First for B - Full Puppet Environment
 
-#Setup Steps
+#Developer Setup Steps
 
 ##Initiation
 
@@ -38,17 +38,17 @@ VDI Platform - On Premises - First for B - Full Puppet Environment
   1. Fix with something like `puppet config set modulepath "C:/ProgramData/PuppetLabs/puppet/etc/modules;C:/usr/share/puppet/modules;C:/ProgramData/PuppetLabs/code/environments/<repo name here, eg BP01>/modules"`
 
 #### Environment
-1. Setup this project as the one in development
-  1. `cd  C:\VDI_SRC_B-P\`
-
-  2.
-
+Setup this project as the one in development
+1. `cd  C:\VDI_SRC_B-P\`
+2.
     ```
     .\Common\Scripts\SetupCurrentPuppetEnvironment.ps1 `
     -puppetEnvironmentSourceFolder '"C:\VDI_SRC_B-P\BP01\Puppet\BP01"' `
     -puppetEnvironmentSymbolicFolder '"C:\ProgramData\PuppetLabs\code\environments\BP01"' `
     -puppetEnvironmentName BP01
 ```
+3.`.\BP01\Scripts\PuppetConfig.ps1`
+
 
 #### 3rd party Modules
 1. Install AD module (includes dependancies)
