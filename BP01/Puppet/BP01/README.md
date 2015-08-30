@@ -53,6 +53,8 @@ Setup this project as the one in development
 -puppetEnvironmentName BP01
 ```
 
+3.
+
 `.\BP01\Scripts\PuppetConfig.ps1`
 
 
