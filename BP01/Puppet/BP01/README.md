@@ -23,20 +23,6 @@ VDI Platform - On Premises - First for B - Full Puppet Environment
 
 ### Puppet
 
-#### Config
-
-*TO OVERHAUL*
-
-1. SCRIPT Confirm modulepath has "C:/ProgramData/PuppetLabs/code/environments/production/modules" by `puppet config print modulepath`
-  1. Fix with something like `puppet config set modulepath "C:/ProgramData/PuppetLabs/puppet/etc/modules;C:/usr/share/puppet/modules;C:/ProgramData/PuppetLabs/code/environments/production/modules"`
-2. SCRIPT Confirm ordering is "manifest" by `puppet config print ordering`
-  1. Fix with `puppet config set ordering manifest`
-  2. This is a requirement of jriviere-windows_ad
-3. SCRIPT Confirm environment name matches this git repo by `puppet config print environment`
-  1. Fix with `puppet config set environment <repo name here, eg BP01>`
-4. SCRIPT Confirm modulepath also has your environment, eg "C:/ProgramData/PuppetLabs/code/environments/<repo name here, eg BP01>/modules" by `puppet config print modulepath`
-  1. Fix with something like `puppet config set modulepath "C:/ProgramData/PuppetLabs/puppet/etc/modules;C:/usr/share/puppet/modules;C:/ProgramData/PuppetLabs/code/environments/<repo name here, eg BP01>/modules"`
-
 #### Environment
 Setup this project as the one in development
 
@@ -53,10 +39,15 @@ Setup this project as the one in development
 -puppetEnvironmentName BP01
 ```
 
-3.
+#### Config
+
+1.
+
+ `cd  C:\VDI_SRC_B-P\`
+ 
+2.
 
 `.\BP01\Scripts\PuppetConfig.ps1`
-
 
 #### 3rd party Modules
 1. Install AD module (includes dependancies)
