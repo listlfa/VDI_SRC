@@ -5,6 +5,7 @@ VDI Platform - On Premises - First for B - Full Puppet Environment
 #Developer Setup Steps
 
 ##Initiation
+Note : Command lines need to be run in Powershell
 
 ##Install Applications
 
