@@ -7,10 +7,14 @@ VDI Platform - On Premises - First for B - Full Puppet Environment
 ##Initiation
 
 ##Install Applications
-1. Github
-  1. https://help.github.com/articles/set-up-git/
-2. Puppet
-  1. https://downloads.puppetlabs.com/windows/
+
+1.
+
+ `cd  C:\VDI_SRC_B-P\BP01\Scripts\`
+ 
+2.
+
+`.\RequiredApplications.ps1`
 
 ###Confirm Requirements
 1. Puppet is _old_ enough, eg <=3.6, by `puppet -V`
