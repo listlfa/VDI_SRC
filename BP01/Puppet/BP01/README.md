@@ -9,16 +9,16 @@ Note : Command lines need to be run in Powershell
 
 ##Download and Install Applications
 
-1. `cd  C:\VDI_SRC_B-P\BP01\Scripts\`
+1 `cd  C:\VDI_SRC_B-P\BP01\Scripts\`
 
-2.`.\RequiredApplications.ps1`
-  1. This installs an older Puppet version. This is a requirement of jriviere-windows_ad
+2 `.\RequiredApplications.ps1`
+  1 This installs an older Puppet version. This is a requirement of jriviere-windows_ad
 
 ###Confirm Requirements
-1. N/A
+1 N/A
   
 ##Download Project Files
- 1. Clone https://github.com/listlfa/VDI_SRC_B-P to C:\
+ 1 Clone https://github.com/listlfa/VDI_SRC_B-P to C:\
 
 ##Setup Applications
 
@@ -27,9 +27,9 @@ Note : Command lines need to be run in Powershell
 #### Environment
 Setup this project as the one in development
 
-1. `cd  C:\VDI_SRC_B-P\`
+1 `cd  C:\VDI_SRC_B-P\`
 
-2.
+2
 ```
 .\Common\Scripts\SetupCurrentPuppetEnvironment.ps1 `
 -puppetEnvironmentSourceFolder '"C:\VDI_SRC_B-P\BP01\Puppet\BP01"' `
