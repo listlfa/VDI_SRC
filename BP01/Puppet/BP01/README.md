@@ -38,9 +38,9 @@ Setup this project as the one in development
 
 #### Config
 
-1. `cd  C:\VDI_SRC_B-P\`
-2.`.\BP01\Scripts\PuppetConfig.ps1`
+`cd  C:\VDI_SRC_B-P\`
+`.\BP01\Scripts\PuppetConfig.ps1`
 
 #### 3rd party Modules
-1. Install AD module (includes dependancies)
-  1. `puppet module install jriviere-windows_ad`
+Install AD module (includes dependancies)
+    `puppet module install jriviere-windows_ad`
