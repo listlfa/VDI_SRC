@@ -7,22 +7,35 @@ VDI Platform - On Premises - First for B - Full Puppet Environment
 ##Initiation
 Note : Command lines need to be run in Powershell
 
+
+
 ##Download and Install Applications
 
 `cd  C:\VDI_SRC_B-P\BP01\Scripts\`
 
 `.\RequiredApplications.ps1`
-  This installs an older Puppet version. This is a requirement of jriviere-windows_ad
+
+(This installs an older Puppet version. This is a requirement of jriviere-windows_ad)
+
+
 
 ###Confirm Requirements
 N/A
-  
+
+
+
 ##Download Project Files
 Clone https://github.com/listlfa/VDI_SRC_B-P to C:\
 
+
+
 ##Setup Applications
 
+
+
 ### Puppet
+
+
 
 #### Environment
 Setup this project as the one in development
@@ -36,10 +49,15 @@ Setup this project as the one in development
 -puppetEnvironmentName BP01
 ```
 
+
+
 #### Config
 
 `cd  C:\VDI_SRC_B-P\`
+
 `.\BP01\Scripts\PuppetConfig.ps1`
+
+
 
 #### 3rd party Modules
 Install AD module (includes dependancies)
