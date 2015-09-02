@@ -49,5 +49,4 @@ Clone https://github.com/listlfa/VDI_SRC_B-P to C:\
 
 #### 3rd party Modules
 Install AD module (includes dependancies)
-
-`puppet module install jriviere-windows_ad`
+>puppet module install jriviere-windows_ad
