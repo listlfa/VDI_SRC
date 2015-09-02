@@ -12,11 +12,11 @@ Note : Command lines need to be run in Powershell
 ##Download and Install Applications
 (This installs an older Puppet version. This is a requirement of jriviere-windows_ad)
 
-* ```powershell
+```powershell
 cd  C:\VDI_SRC_B-P\BP01\Scripts\
 ```
 
-* ```powershell
+```powershell
 .\RequiredApplications.ps1
 ```
 
