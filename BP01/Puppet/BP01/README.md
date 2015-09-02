@@ -12,9 +12,13 @@ Note : Command lines need to be run in Powershell
 ##Download and Install Applications
 (This installs an older Puppet version. This is a requirement of jriviere-windows_ad)
 
-`cd  C:\VDI_SRC_B-P\BP01\Scripts\`
+```powershell
+cd  C:\VDI_SRC_B-P\BP01\Scripts\
+```
 
-`.\RequiredApplications.ps1`
+```powershell
+.\RequiredApplications.ps1
+```
 
 
 
@@ -29,7 +33,9 @@ N/A
 Clone https://github.com/listlfa/VDI_SRC_B-P to C:\
 
 #### Setup this project as the one in development
-`cd  C:\VDI_SRC_B-P\`
+```powershell
+cd  C:\VDI_SRC_B-P\
+```
 
 ```powershell
 .\Common\Scripts\SetupCurrentPuppetEnvironment.ps1 `
@@ -43,10 +49,16 @@ Clone https://github.com/listlfa/VDI_SRC_B-P to C:\
 ##Puppet
 
 #### Config
-`cd  C:\VDI_SRC_B-P\`
+```powershell
+cd  C:\VDI_SRC_B-P\
+```
 
-`.\BP01\Scripts\PuppetConfig.ps1`
+```powershell
+.\BP01\Scripts\PuppetConfig.ps1
+```
 
 #### 3rd party Modules
 Install AD module (includes dependancies)
->puppet module install jriviere-windows_ad
+```powershell
+puppet module install jriviere-windows_ad
+```
