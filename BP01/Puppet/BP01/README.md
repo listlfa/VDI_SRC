@@ -18,27 +18,17 @@ Note : Command lines need to be run in Powershell
 
 
 
-###Confirm Requirements
+##Confirm Requirements
 N/A
 
 
 
-##Download Project Files
+##Project
+
+###Download
 Clone https://github.com/listlfa/VDI_SRC_B-P to C:\
 
-
-
-##Setup Applications
-
-
-
-### Puppet
-
-
-
-#### Environment
-Setup this project as the one in development
-
+#### Setup this project as the one in development
 `cd  C:\VDI_SRC_B-P\`
 
 ```
@@ -50,14 +40,14 @@ Setup this project as the one in development
 
 
 
-#### Config
+##Puppet
 
+#### Config
 `cd  C:\VDI_SRC_B-P\`
 
 `.\BP01\Scripts\PuppetConfig.ps1`
 
-
-
 #### 3rd party Modules
 Install AD module (includes dependancies)
-    `puppet module install jriviere-windows_ad`
+
+`puppet module install jriviere-windows_ad`
