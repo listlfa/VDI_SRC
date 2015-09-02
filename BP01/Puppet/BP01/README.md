@@ -31,11 +31,11 @@ Clone https://github.com/listlfa/VDI_SRC_B-P to C:\
 #### Setup this project as the one in development
 `cd  C:\VDI_SRC_B-P\`
 
->.\Common\Scripts\SetupCurrentPuppetEnvironment.ps1 `
+```.\Common\Scripts\SetupCurrentPuppetEnvironment.ps1 `
 -puppetEnvironmentSourceFolder '"C:\VDI_SRC_B-P\BP01\Puppet\BP01"' `
 -puppetEnvironmentSymbolicFolder '"C:\ProgramData\PuppetLabs\code\environments\BP01"' `
 -puppetEnvironmentName BP01
-
+```
 
 
 
