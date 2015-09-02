@@ -15,13 +15,14 @@ Note : Command lines need to be run in Powershell
 1.
 
         ```powershell
-        cd  C:\VDI_SRC_B-P\BP01\Scripts\
-        ```
+cd  C:\VDI_SRC_B-P\BP01\Scripts\
+```
+
 2.
 
         ```powershell
-        .\RequiredApplications.ps1
-        ```
+.\RequiredApplications.ps1
+```
 
 
 
