@@ -8,3 +8,5 @@ puppet config set modulepath "C:/ProgramData/PuppetLabs/puppet/etc/modules;C:/us
 
 #This is a requirement of jriviere-windows_ad
 puppet config set ordering manifest
+
+puppet module install --modulepath C:/ProgramData/PuppetLabs/code/environments/BP01/modules jriviere-windows_ad
