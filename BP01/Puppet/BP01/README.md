@@ -48,7 +48,7 @@ cd  C:\VDI_SRC_B-P\
 
 ##Puppet
 
-#### Config
+#### Config and 3rd party Modules
 ```powershell
 cd  C:\VDI_SRC_B-P\
 ```
@@ -57,8 +57,3 @@ cd  C:\VDI_SRC_B-P\
 .\BP01\Scripts\PuppetConfig.ps1
 ```
 
-#### 3rd party Modules
-Install AD module (includes dependancies)
-```powershell
-puppet module install jriviere-windows_ad
-```
