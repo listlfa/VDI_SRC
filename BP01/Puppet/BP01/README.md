@@ -52,8 +52,15 @@ cd  C:\VDI_SRC_B-P\
 ```powershell
 cd  C:\VDI_SRC_B-P\
 ```
-
 ```powershell
 .\BP01\Scripts\PuppetConfig.ps1
 ```
 
+#### Run
+
+```powershell
+cd  C:\ProgramData\PuppetLabs\code\environments\BP01
+```
+```powershell
+puppet apply --noop .\modules\ActiveDirectory\manifests\init.pp
+```
