@@ -62,5 +62,5 @@ cd  C:\VDI_SRC_B-P\
 cd  C:\ProgramData\PuppetLabs\code\environments\BP01
 ```
 ```powershell
-puppet apply --noop .\modules\ActiveDirectory\manifests\init.pp
+puppet apply --noop .\modules\active_directory\tests\init.pp
 ```
