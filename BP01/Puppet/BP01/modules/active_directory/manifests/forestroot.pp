@@ -1,4 +1,4 @@
-ActiveDirectory
+active_directory
 
 # == Class: vdi
 #
@@ -37,7 +37,7 @@ ActiveDirectory
 #
 # Copyright 2015 Your name here, unless otherwise noted.
 #
-class ActiveDirectory::ForestRoot {
+class active_directory::forestroot {
 		class {'windows_ad':
 		  install                => present,
 		  installmanagementtools => true,

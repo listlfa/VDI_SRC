@@ -35,6 +35,6 @@
 #
 # Copyright 2015 Your name here, unless otherwise noted.
 #
-class ActiveDirectory {
+class active_directory {
 
 }

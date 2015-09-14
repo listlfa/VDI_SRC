@@ -9,6 +9,6 @@
 # Learn more about module testing here:
 # http://docs.puppetlabs.com/guides/tests_smoke.html
 #
-include ActiveDirectory
-include ActiveDirectory::ForestRoot
+include active_directory
+include active_directory::forestroot
 
