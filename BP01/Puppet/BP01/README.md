@@ -9,12 +9,9 @@ VDI Platform - On Premises - First for B - Full Puppet Environment
 Note : Command lines need to be run in Powershell
 
 
-
 ##Download and Install Applications
 
 ###Github
-
--Test
 
  ```powershell
 new-item C:\VDI_SRC_B-P\BP01\Files-Apps\  -itemType directory
@@ -22,7 +19,6 @@ cd  C:\VDI_SRC_B-P\BP01\Files-Apps\
 Invoke-WebRequest https://github-windows.s3.amazonaws.com/GitHubSetup.exe -OutFile .\GitHubSetup.exe
 .\GitHubSetup.exe
 ```
-
 
 ###Everything Else
 (This installs an older Puppet version. This is a requirement of jriviere-windows_ad)
@@ -56,14 +52,11 @@ cd  C:\VDI_SRC_B-P\
 ```
 
 
-
 ##Puppet
 
 #### Config and 3rd party Modules
 ```powershell
 cd  C:\VDI_SRC_B-P\
-```
-```powershell
 .\BP01\Scripts\PuppetConfig.ps1
 ```
 
@@ -71,7 +64,5 @@ cd  C:\VDI_SRC_B-P\
 
 ```powershell
 cd  C:\ProgramData\PuppetLabs\code\environments\BP01
-```
-```powershell
 puppet apply --noop .\modules\active_directory\tests\init.pp
 ```
