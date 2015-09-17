@@ -20,8 +20,8 @@ Invoke-WebRequest https://github-windows.s3.amazonaws.com/GitHubSetup.exe -OutFi
 .\GitHubSetup.exe
 ```
 
--Log into the Github application
--Clone https://github.com/listlfa/VDI_SRC_B-P to C:\
+- Log into the Github application
+- Clone https://github.com/listlfa/VDI_SRC_B-P to C:\
 
 ###Everything Else
 (This installs an older Puppet version. This is a requirement of jriviere-windows_ad)
