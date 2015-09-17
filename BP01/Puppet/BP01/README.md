@@ -24,23 +24,19 @@ Invoke-WebRequest https://github-windows.s3.amazonaws.com/GitHubSetup.exe -OutFi
 
 ```powershell
 cd  C:\VDI_SRC_B-P\BP01\Scripts\
-```
-
-```powershell
 .\RequiredApplications.ps1
 ```
-
 
 
 ##Confirm Requirements
 N/A
 
 
-
 ##Project
 
 ###Download
-Clone https://github.com/listlfa/VDI_SRC_B-P to C:\
+- Log into the Github application
+- Clone https://github.com/listlfa/VDI_SRC_B-P to C:\
 
 #### Setup this project as the one in development
 ```powershell
