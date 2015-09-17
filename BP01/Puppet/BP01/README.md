@@ -10,6 +10,14 @@ Note : Command lines need to be run in Powershell
 
 
 ##Download and Install Applications
+
+###Github
+```powershell
+new-item C:\VDI_SRC_B-P\BP01\Files-Apps\  -itemType directory
+cd  C:\VDI_SRC_B-P\BP01\Files-Apps\ 
+```
+
+###Everything Else
 (This installs an older Puppet version. This is a requirement of jriviere-windows_ad)
 
 ```powershell
