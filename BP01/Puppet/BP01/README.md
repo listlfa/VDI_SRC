@@ -1,3 +1,4 @@
+
 BP01
 
 VDI Platform - On Premises - First for B - Full Puppet Environment
@@ -13,8 +14,8 @@ Note : Command lines need to be run in Powershell
 
 ###Github
 
-- Test
-        - 
+-Test
+
         ```powershell
         new-item C:\VDI_SRC_B-P\BP01\Files-Apps\  -itemType directory
         cd  C:\VDI_SRC_B-P\BP01\Files-Apps\ 
