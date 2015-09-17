@@ -14,13 +14,8 @@ Note : Command lines need to be run in Powershell
 ###Github
 
 - Test
-- 
-```powershell
-        new-item C:\VDI_SRC_B-P\BP01\Files-Apps\  -itemType directory
-        cd  C:\VDI_SRC_B-P\BP01\Files-Apps\ 
-        Invoke-WebRequest https://github-windows.s3.amazonaws.com/GitHubSetup.exe -OutFile .\GitHubSetup.exe
-        .\GitHubSetup.exe
-```
+- test2
+
 
 ###Everything Else
 (This installs an older Puppet version. This is a requirement of jriviere-windows_ad)
